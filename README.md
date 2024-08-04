@@ -14,10 +14,12 @@
 ## 文件介绍
 
 
-* Chinese_wsd_final  ：  基于论文中规则构建的现代汉语词义消歧数据集，一个例句可能对应多个词义
-* wsd_multi_sense_only_final   ： 与Chinese_wsd_final对应的词语词义集合
-* wsd_single_sense_sentence_final     ： 根据一些合并规则将Chinese_wsd_final中数据变为单选形式，即每个例句仅对应一个词义，且词义也进行了合并
-
+* Chinese_wsd_final    ：    基于论文中规则构建的现代汉语词义消歧数据集，一个例句可能对应多个词义
+* wsd_multi_sense_only_final    ：    与Chinese_wsd_final对应的词语词义集合
+* wsd_single_sense_sentence_final    ：    根据一些合并规则将Chinese_wsd_final中数据变为单选形式，即每个例句仅对应一个词义，且词义也进行了合并
+* Dataset_ALL    :    划分好的训练集、验证集和测试集。
+* GlossBERT-master    ：    修改后以适配该数据的GlossBERT模型。
+* esc-master-chinese    :    修改后以适配该数据的ESCHER模型。    
 
 
 ## Citation:
