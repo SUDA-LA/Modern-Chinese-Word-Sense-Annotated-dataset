@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0 nohup python run_classifier_WSD_sent.py \
+--task_name WSD \
+--train_data_dir YOUR_TRAIN_DATA \
+--eval_data_dir YOUR_EVAL_DATA \
+--output_dir YOUR_OUTPUT_FILE \
+--bert_model YOUR_MODEL \
+--do_train \
+--do_eval \
+--max_seq_length 512 \
+--train_batch_size 64 \
+--eval_batch_size 128 \
+--learning_rate 2e-5 \
+--num_train_epochs 6.0 \
+--seed 1314   > RESULT.log 2>&1 &
