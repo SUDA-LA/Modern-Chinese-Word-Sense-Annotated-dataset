@@ -14,4 +14,5 @@
 *  在模型训练前，请依据原模型的要求配置环境（可参考/requirements.txt）
 *  模型训练时请将/run.sh中的参数替换为您所需的参数
 *   /data中已根据模型要求对本项目的数据做了格式修改，可直接使用
+*   词典资源请使用根目录下的wsd_multi_sense_only_final.json
 
