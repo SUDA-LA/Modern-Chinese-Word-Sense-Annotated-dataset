@@ -9,6 +9,7 @@ GlossBERT模型原代码地址：https://github.com/HSLCY/GlossBERT 。该文档
 *  请根据原模型需求配置环境。
 *  训练请使先修改/run.sh中配置。
 *  /Data中包含了适配GlossBERT的本项目数据。
+*  词典资源请使用根目录下的wsd_multi_sense_only_final.json
 
 
 ## 模型测试
