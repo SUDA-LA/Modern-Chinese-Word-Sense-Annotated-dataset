@@ -30,13 +30,9 @@ CCL结果中GlossBERT模型F值过低，这是由于之前的PRF评判脚本没�
 
 ## 实验结果
 
-\begin{table}[]
-\begin{tabular}{llllll}
-\hline
-k & ALL   & MFS   & LFS            & Few-shot & Zero-shot \\ \hline
-3 & 76.94 & 91.41 & \textbf{83.58} & 56.63    & 50.45    
-\end{tabular}
-\end{table}
+| k | ALL   | MFS   | LFS   | Few-shot | Zero-shot |
+|---|-------|-------|-------|----------|-----------|
+| 3 | 76.94 | 91.41 | 83.58 | 56.63    | 50.45     |
 
 
 
