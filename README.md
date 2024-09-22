@@ -28,6 +28,18 @@ CCL结果中GlossBERT模型F值过低，这是由于之前的PRF评判脚本没�
 * GlossBERT-master    ：    修改后以适配该数据的GlossBERT模型。
 * esc-master-chinese    :    修改后以适配该数据的ESCHER模型。    
 
+## 实验结果
+
+\begin{table}[]
+\begin{tabular}{llllll}
+\hline
+k & ALL   & MFS   & LFS            & Few-shot & Zero-shot \\ \hline
+3 & 76.94 & 91.41 & \textbf{83.58} & 56.63    & 50.45    
+\end{tabular}
+\end{table}
+
+
+
 
 ## Citation:
 
