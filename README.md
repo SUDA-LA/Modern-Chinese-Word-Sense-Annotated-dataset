@@ -15,6 +15,12 @@ CCL结果中GlossBERT模型F值过低，这是由于之前的PRF评判脚本没�
 如果近期有数据使用上的困扰，可直接联系电子邮箱：2115621341@qq.com。
 
 
+**近期关注到一个不错的中文词义消歧数据集工作：  MiCLS**    https://github.com/COOLPKU/MSD_task
+
+Modern Chinese Word Sense Annotated dataset构建的初衷是聚焦于“Gloss”（释义），希望更多的释义能对Transformer类模型有更多帮助。不过也被吐槽反馈“多选”形式存在模型难适配、与前人工作难比较的问题。MiCLS作为近期另一个已公开的中文词义消歧数据集同样有着不错的规模，在使用本数据集困难时也可选择MiCLS做更进一步研究。
+
+最后，衷心希望 Chinese WSD 能有更多优秀的数据集和模型工作。
+
 ## 文件介绍
 
 
